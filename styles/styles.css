@@ -1,0 +1,171 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+body {
+    background-color: black;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Andika";
+}
+
+p {
+	font-family: "Rubik";
+}
+
+em {
+    font-style: normal;
+    color:#bdf8ff;
+}
+
+/* Elements
+--------------------------------------------- */
+ul {
+	
+}
+
+ol {
+	
+}
+
+dl {
+	
+}
+
+figure {
+	
+}
+
+table {
+	
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+a:focus {
+	
+}
+
+a:active {
+	
+}
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Header
+--------------------------------------------- */
+
+
+/* Main
+--------------------------------------------- */
+.banner {
+    position: relative;
+}
+
+/* .banner img {
+    display: block;
+    width: 100%;
+    opacity: 0.3;
+    object-fit: scale-down;
+    margin: 0 auto;
+} */
+
+.banner video {
+    opacity: 0.6;
+    object-position: 15%;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    width: 80%;
+
+    padding: 1.5rem 0;
+
+    background-color: #000000a8;
+    box-shadow: 0 0 1rem #ffffff4e;
+}
+
+.banner-text h1 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.banner-text p {
+    margin: 0 1rem;
+}
+
+.banner svg {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: 3rem;
+    width: 3rem;
+}
+
+.banner a {
+    scroll-behavior: smooth;
+}
+
+.banner svg path {
+    stroke: white !important;
+}
+
+/* Footer
+--------------------------------------------- */
