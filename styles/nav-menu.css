@@ -21,6 +21,11 @@ nav {
 #nav-list li a {
     color: #09121a;
     font-size: 1rem;
+
+    /* there isn't a padding: auto, how do you fill the rest
+        of a preformatted container? */
+    padding: 1rem 0.5rem;
+    width: 6rem;
     text-decoration: none;
 }
 
@@ -70,6 +75,4 @@ nav svg {
 
 #nav-list.toggled {
     display: block;
-    /* transition: left 2s; */
-    /* left: 0; */
 }
