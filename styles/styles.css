@@ -29,6 +29,7 @@ html {
 body {
     background-color: #09121a;
     color: white;
+	font-family: "Rubik";
 }
 
 h1,
@@ -43,7 +44,6 @@ h6 {
 }
 
 p {
-	font-family: "Rubik";
     padding: 1rem;
     margin: 0;
 }
@@ -55,6 +55,12 @@ em {
 
 /* Elements
 --------------------------------------------- */
+
+address {
+    padding: 1rem;
+    margin: 0;
+}
+
 ul {
 	
 }
@@ -78,7 +84,7 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	font-family: "Rubik";
+    
 }
 
 a:visited {
@@ -176,5 +182,28 @@ a:active {
     stroke: white !important;
 }
 
+@media (min-width: 50em) {
+    .content-wrapper {
+        max-width: 70%;
+        margin: 2rem auto;
+    }
+}
+
 /* Footer
 --------------------------------------------- */
+
+footer {
+    background-color: #222336;
+}
+
+@media (min-width: 50em) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer p {
+        
+        vertical-align: center;
+    }
+}

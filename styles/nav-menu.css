@@ -1,9 +1,6 @@
 /*  */
 
 
-header {
-}
-
 nav {
     position: fixed;
     bottom: 0;
@@ -13,21 +10,7 @@ nav {
     margin: 1rem; 
 }
 
-#nav-list li {
-    text-align: center;
-    padding: 1rem 0;
-}
-
-#nav-list li a {
-    color: #09121a;
-    font-size: 1rem;
-
-    /* there isn't a padding: auto, how do you fill the rest
-        of a preformatted container? */
-    padding: 1rem 0.5rem;
-    width: 6rem;
-    text-decoration: none;
-}
+/* NAV BUTTON SECTION ----------------------------------------- */
 
 #nav-button {
     width: 4rem;
@@ -56,6 +39,8 @@ nav svg {
     stroke: white;
 }
 
+/* NAV LIST SECTION ----------------------------------------- */
+
 #nav-list {
     list-style-type: none;
     background-color: #ffffffe0;
@@ -71,6 +56,22 @@ nav svg {
     margin: 0;
 
     display: none;
+}
+
+#nav-list li {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#nav-list li a {
+    color: #09121a;
+    font-size: 1rem;
+
+    /* there isn't a padding: auto, how do you fill the rest
+        of a preformatted container? */
+    padding: 1rem 0.5rem;
+    width: 6rem;
+    text-decoration: none;
 }
 
 #nav-list.toggled {
