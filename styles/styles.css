@@ -61,6 +61,10 @@ address {
     margin: 0;
 }
 
+blockquote {
+    margin: 0;
+}
+
 ul {
 	
 }
@@ -117,14 +121,6 @@ a:active {
 .banner {
     position: relative;
 }
-
-/* .banner img {
-    display: block;
-    width: 100%;
-    opacity: 0.3;
-    object-fit: scale-down;
-    margin: 0 auto;
-} */
 
 .banner video {
     opacity: 0.8;
