@@ -1,0 +1,9 @@
+/* index specific css, moved here because it's messing up the other pages */
+
+.banner video {
+    opacity: 1;
+    object-position: 15%;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}

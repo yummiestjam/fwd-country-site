@@ -10,6 +10,11 @@ const svgClose = document.getElementById('close-menu-svg');
 svgClose.style.display = 'none';
 
 button.addEventListener('click', function(){
+    handleMenu()
+});
+
+// separate in case i add a hover listener too
+function handleMenu() {
     // toggle menu
     list.classList.toggle('toggled');
 
@@ -24,6 +29,5 @@ button.addEventListener('click', function(){
         svgOpen.style.display = 'block';
         button.style.backgroundColor = '#FFFFFF';
     }
-})
-
+}
 

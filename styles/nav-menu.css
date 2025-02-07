@@ -26,6 +26,11 @@ nav {
     position: relative;
 }
 
+/* set cursor to pointer to imply the button is clickable */
+#nav-button:hover {
+    cursor: pointer;
+}
+
 nav svg {
     width: 3.5rem;
     height: 3.5rem;

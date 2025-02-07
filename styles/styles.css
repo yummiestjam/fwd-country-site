@@ -83,24 +83,18 @@ table {
 
 /* Links
 --------------------------------------------- */
-a {
-    
-}
-
+a,
 a:visited {
-	
+    color:#5fdf97;
 }
 
-a:hover {
-	
-}
-
+a:hover,
 a:focus {
-	
+    color:#35da33;
 }
 
 a:active {
-	
+    color:#b8f5c5;
 }
 
 
@@ -133,8 +127,7 @@ a:active {
 } */
 
 .banner video {
-    opacity: 1;
-    object-position: 15%;
+    opacity: 0.8;
     object-fit: cover;
     width: 100%;
     height: 100vh;
@@ -182,10 +175,13 @@ a:active {
     stroke: white !important;
 }
 
+.content-wrapper {
+    margin: 2rem auto;
+}
+
 @media (min-width: 50em) {
     .content-wrapper {
         max-width: 70%;
-        margin: 2rem auto;
     }
 }
 
@@ -199,7 +195,7 @@ footer {
 @media (min-width: 50em) {
     footer {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     footer p {
