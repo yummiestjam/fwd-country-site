@@ -85,6 +85,24 @@ table {
 	
 }
 
+img {
+    aspect-ratio: 1 / 0.5;
+    object-fit: cover;
+    object-position: 50% 10%;
+}
+
+@media (min-width: 48rem) {
+    img {
+        aspect-ratio: 3 / 1;
+    }
+}
+
+@media (min-width: 160rem) {
+    img {
+        aspect-ratio: 4 / 1;
+    }
+}
+
 /* Links
 --------------------------------------------- */
 a,
