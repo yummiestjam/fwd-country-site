@@ -8,37 +8,22 @@
     height: 100vh;
 }
 
-/* img {
-    height: 10rem;
-    width: 100%;
+img {
+    aspect-ratio: 1 / 0.5;
     object-fit: cover;
     object-position: 50% 10%;
-} */
-
-.items {
-    display: flex;
-    flex-direction: column;
 }
 
-.items img {
-    flex: 1 1 40rem;
-    object-fit: cover;
-}
-
-/* @media (min-width: 32rem) {
+@media (min-width: 48rem) {
     img {
-        height: 15rem;
+        aspect-ratio: 3 / 1;
+    }
+
+    #img-animals {
+        object-position: 50% 25%;
+    }
+
+    #img-places {
+        object-position: 50% 50%;
     }
 }
-
-@media (min-width: 50em) {
-    img {
-        height: 25rem;
-    }
-}
-
-@media (min-width: 100rem) {
-    img {
-        height: 40rem;
-    }
-} */
