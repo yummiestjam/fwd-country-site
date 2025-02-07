@@ -8,14 +8,24 @@
     height: 100vh;
 }
 
-img {
+/* img {
     height: 10rem;
     width: 100%;
     object-fit: cover;
     object-position: 50% 10%;
+} */
+
+.items {
+    display: flex;
+    flex-direction: column;
 }
 
-@media (min-width: 32rem) {
+.items img {
+    flex: 1 1 40rem;
+    object-fit: cover;
+}
+
+/* @media (min-width: 32rem) {
     img {
         height: 15rem;
     }
@@ -31,4 +41,4 @@ img {
     img {
         height: 40rem;
     }
-}
+} */
