@@ -211,7 +211,7 @@ textarea {
 
 form {
     margin: 1rem;
-    flex: 1 1 30%;
+    max-width: fit-content;
 }
 
 #contact-image {
@@ -233,6 +233,9 @@ form {
 
     #contact-image {
         grid-column: 2 / span 2;
+        object-fit: cover;
+        height: 27rem;
+        width: 100%;
     }
 }
 
