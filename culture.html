@@ -92,6 +92,38 @@
                 <img id="img-art" src="images/face-painted-fence.jpg" alt="A colorful, teary-eyed face painted onto a fence.">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam fuga possimus saepe illo repellat, harum nisi ab doloribus excepturi!</p>
             </section>
+            <section class="contact-section">
+                <h2 id="contact-title">Contact A Human Expert</h2>
+                <!-- remember, site visitors may be aliens! -->
+                <form action="" name="form" id="contact-form">
+                    <label for="name">Name (in Human English):</label>
+                    <input type="text" id="name" name="name" placeholder="What should we call you?" autocomplete="given-name">
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="What do you want to talk about?">
+
+                    <div class="radio-button">
+                        <input type="radio" id="solar-system-yes" name="solar-system">
+                        <label for="solar-system-yes">Yes, I'm From The Solar System</label>
+                    </div>
+
+                    <div class="radio-button">
+                        <input type="radio" id="solar-system-no" name="solar-system">
+                        <label for="solar-system-no">No, I'm From Elsewhere</label>
+                    </div>
+
+                    <label for="space-mail">Space-Mail Address:</label>
+                    <input type="text" id="space-mail" name="space-mail" placeholder="example@mars.spacemail">
+
+                    <!-- very minor thing, but resizing this textarea seems to be very finicky -->
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" placeholder="Type your message here..."></textarea>
+
+                    <input type="submit" value="Send Message">
+                </form>
+
+                <img id="contact-image" src="images/woman-pointing.jpg" alt="A well-dressed woman smiling and pointing casually at the camera.">
+            </section>
         </div>
     </main>
     <footer>

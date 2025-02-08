@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/normalize-fwd.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/nav-menu.css">
+    <link rel="stylesheet" href="styles/wonders.css">
 
     <!-- apply favicons -->
     <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
@@ -80,11 +81,53 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque eius a dignissimos. Velit nulla iste quidem beatae similique eligendi aut.</p>
             </section>
             <section id="places-descriptions">
-                <h3>Wonders of Nature</h3>
+                <h3>Beauty of Nature</h3>
+                <div class="images">
+                    <img id="img-reef" src="images/reef-manado-indonesia.jpg" alt="A coral reef in Manado, Indonesia.">
+                    <img id="img-forest" src="images/forest-north-vancouver.jpg" alt="A forest in Vancouver, Canada.">
+                    <img id="img-mountain" src="images/mountain-nepal.jpg" alt="A mountain in Nepal.">
+                </div>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque eius a dignissimos. Velit nulla iste quidem beatae similique eligendi aut.</p>
 
-                <h3>Human Creations</h3>
+                <h3>Beauty of Human Creations</h3>
+                <div class="images">
+                    <img id="img-statue" src="images/statue-of-liberty.jpg" alt="The Statue of Liberty in New York, USA.">
+                    <img id="img-chichen-itza" src="images/pyramid-chichen-itza.jpg" alt="A pyramid in Chichén Itzá, in Mexico.">
+                    <img id="img-great-wall" src="images/great-wall-of-china.jpg" alt="The Great Wall of China in China.">
+                </div>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque eius a dignissimos. Velit nulla iste quidem beatae similique eligendi aut.</p>
+            </section>
+            <section class="contact-section">
+                <h2 id="contact-title">Contact A Human Expert</h2>
+                <!-- remember, site visitors may be aliens! -->
+                <form action="" name="form" id="contact-form">
+                    <label for="name">Name (in Human English):</label>
+                    <input type="text" id="name" name="name" placeholder="What should we call you?" autocomplete="given-name">
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="What do you want to talk about?">
+
+                    <div class="radio-button">
+                        <input type="radio" id="solar-system-yes" name="solar-system">
+                        <label for="solar-system-yes">Yes, I'm From The Solar System</label>
+                    </div>
+
+                    <div class="radio-button">
+                        <input type="radio" id="solar-system-no" name="solar-system">
+                        <label for="solar-system-no">No, I'm From Elsewhere</label>
+                    </div>
+
+                    <label for="space-mail">Space-Mail Address:</label>
+                    <input type="text" id="space-mail" name="space-mail" placeholder="example@mars.spacemail">
+
+                    <!-- very minor thing, but resizing this textarea seems to be very finicky -->
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" placeholder="Type your message here..."></textarea>
+
+                    <input type="submit" value="Send Message">
+                </form>
+
+                <img id="contact-image" src="images/woman-pointing.jpg" alt="A well-dressed woman smiling and pointing casually at the camera.">
             </section>
         </div>
     </main>
