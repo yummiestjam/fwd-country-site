@@ -77,18 +77,18 @@ dl {
 	
 }
 
-figure {
-	
-}
+
+
 
 table {
 	margin: 1rem;
 }
 
+
+
 img {
     aspect-ratio: 1 / 0.5;
     object-fit: cover;
-    object-position: 50% 10%;
 }
 
 @media (min-width: 48rem) {
@@ -102,6 +102,8 @@ img {
         aspect-ratio: 4 / 1;
     }
 }
+
+
 
 /* Links
 --------------------------------------------- */
@@ -191,6 +193,59 @@ a:active {
 
 .content-wrapper {
     margin: 2rem auto;
+}
+
+.contact-form h2 {
+    width: 100%;
+}
+
+form {
+    
+    margin: 1rem;
+}
+
+.radio-button,
+input[type=text],
+textarea {
+	display: block;
+    margin: 1rem 0;
+}
+
+input[type=text],
+textarea {
+    width: 18rem;
+}
+
+#contact-image {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: 50% 10%;
+}
+
+@media (min-width: 40rem) {
+    .contact-form {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: nowrap; */
+        justify-content: space-between;
+    
+        max-height: 30rem;
+    }
+    
+    form {
+        max-width: fit-content;
+    }
+    
+    .contact-form img {
+        /* https://stackoverflow.com/questions/36247140/why-dont-flex-items-shrink-past-content-size */
+        min-width: 0;
+        min-height: 0;
+        overflow: hidden;
+    
+        flex: 1 1 auto;
+
+        margin-right: 1rem;
+    }
 }
 
 @media (min-width: 50em) {
