@@ -195,14 +195,7 @@ a:active {
     margin: 2rem auto;
 }
 
-.contact-form h2 {
-    width: 100%;
-}
-
-form {
-    
-    margin: 1rem;
-}
+/* contact form stuff */
 
 .radio-button,
 input[type=text],
@@ -216,6 +209,11 @@ textarea {
     width: 18rem;
 }
 
+form {
+    margin: 1rem;
+    flex: 1 1 30%;
+}
+
 #contact-image {
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -223,28 +221,18 @@ textarea {
 }
 
 @media (min-width: 40rem) {
-    .contact-form {
-        display: flex;
-        flex-direction: row;
-        /* flex-wrap: nowrap; */
-        justify-content: space-between;
-    
-        max-height: 30rem;
+    .contact-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr;
     }
-    
-    form {
-        max-width: fit-content;
-    }
-    
-    .contact-form img {
-        /* https://stackoverflow.com/questions/36247140/why-dont-flex-items-shrink-past-content-size */
-        min-width: 0;
-        min-height: 0;
-        overflow: hidden;
-    
-        flex: 1 1 auto;
 
-        margin-right: 1rem;
+    #contact-title {
+        grid-column: 1 / span 3;
+    }
+
+    #contact-image {
+        grid-column: 2 / span 2;
     }
 }
 
