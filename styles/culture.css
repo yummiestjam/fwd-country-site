@@ -1,0 +1,17 @@
+
+
+/* fix culture.html specific images */
+
+@media (min-width: 48rem) {
+    #img-celebration {
+        object-position: 50% 50%;
+    }
+
+    #img-food {
+        object-position: 50% 50%;
+    }
+
+    #img-art {
+        object-position: 50% 40%;
+    }
+}
