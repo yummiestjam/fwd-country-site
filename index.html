@@ -17,20 +17,20 @@
     <link rel="stylesheet" href="styles/index.css">
 
     <!-- apply favicons -->
-    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-    <link rel="manifest" href="site.webmanifest" />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="MyWebSite">
+    <link rel="manifest" href="site.webmanifest">
 
     <title>Welcome to Earth!</title>
-    <meta name="description"> <!-- This is usually what's shown on search, under the title -->
+    <meta name="description" content="Calling all residents of the universe! Explore Earth's stunning wonders and vibrant culture!"> <!-- This is usually what's shown on search, under the title -->
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav tabindex="0">
             <button id="nav-button">
                 <svg id="open-menu-svg" width="800px" height="800px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>Open Menu</title>
@@ -68,7 +68,9 @@
             </div>
 
             <a href="#about">
-                <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" id="double-down-sign" data-name="Multi Color" xmlns="http://www.w3.org/2000/svg" class="icon multi-color"><title style="stroke-width: 2;">double down sign</title><path id="primary-stroke" d="M3,5l9,5m0,9L3,14M21,5l-9,5m0,9,9-5" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>
+                <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" id="double-down-sign" data-name="Multi Color" xmlns="http://www.w3.org/2000/svg" class="icon multi-color">
+                    <title style="stroke-width: 2;">Skip To Content</title>
+                <path id="primary-stroke" d="M3,5l9,5m0,9L3,14M21,5l-9,5m0,9,9-5" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path> </svg>
             </a>
             
         </section>
@@ -108,6 +110,7 @@
                     <label for="subject">Subject:</label>
                     <input type="text" id="subject" name="subject" placeholder="What do you want to talk about?">
 
+                    <label for="solar-system">Are You From Within The Solar System?</label>
                     <div class="radio-button">
                         <input type="radio" id="solar-system-yes" name="solar-system">
                         <label for="solar-system-yes">Yes, I'm From The Solar System</label>
